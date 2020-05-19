@@ -15,7 +15,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="?android:attr/windowBackground">
+            android:background="#FFF3E6">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -24,7 +24,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Notifications"
+                    android:fontFamily="@font/aclonica"
+                    android:text="Borrowed Books"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -39,6 +40,7 @@
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/bar" />
+        android:layout_below="@id/bar"
+        android:background="#FFF7E6" />
 
 </RelativeLayout>

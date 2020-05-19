@@ -16,31 +16,32 @@
         android:id="@+id/bar">
 
         <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="?android:attr/windowBackground"
-            android:id="@+id/toolbar">
+            android:background="#FFF3E6">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <TextView
+                    android:id="@+id/username"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="18sp"
+                    android:fontFamily="@font/alice"
                     android:maxLines="1"
-                    android:textStyle="bold"
-                    android:id="@+id/username"
-                    android:textColor="@color/colorPrimaryDark"/>
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
                 <ImageView
+                    android:id="@+id/options"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/options"
-                    android:src="@drawable/ic_options"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginEnd="10dp"/>
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_options" />
             </RelativeLayout>
 
         </android.support.v7.widget.Toolbar>
@@ -51,7 +52,8 @@
         android:id="@id/bar"
         android:layout_width="match_parent"
         android:layout_height="787dp"
-        android:layout_alignParentEnd="true">
+        android:layout_alignParentEnd="true"
+        android:background="#FFF7E6">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -96,6 +98,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
+                                android:fontFamily="@font/alice"
                                 android:textColor="@color/colorPrimaryDark"
                                 android:textSize="18sp"
                                 android:textStyle="bold" />
@@ -103,7 +106,8 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="posts" />
+                                android:fontFamily="@font/alice"
+                                android:text="Books" />
 
 
                         </LinearLayout>
@@ -119,6 +123,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
+                                android:fontFamily="@font/alice"
                                 android:textColor="@color/colorPrimaryDark"
                                 android:textSize="18sp"
                                 android:textStyle="bold" />
@@ -126,7 +131,8 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="followers" />
+                                android:fontFamily="@font/alice"
+                                android:text="Readears" />
 
 
                         </LinearLayout>
@@ -142,6 +148,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
+                                android:fontFamily="@font/alice"
                                 android:textColor="@color/colorPrimaryDark"
                                 android:textSize="18sp"
                                 android:textStyle="bold" />
@@ -149,7 +156,8 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="following" />
+                                android:fontFamily="@font/alice"
+                                android:text="Reading" />
 
 
                         </LinearLayout>
@@ -158,10 +166,13 @@
 
                     <Button
                         android:id="@+id/edit_profile"
-                        android:layout_width="match_parent"
+                        android:layout_width="100dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:layout_marginTop="8dp"
-                        android:background="@drawable/button_background" />
+                        android:background="@drawable/button_black"
+                        android:elevation="4dp"
+                        android:fontFamily="@font/alice" />
 
                 </LinearLayout>
 
@@ -179,6 +190,7 @@
                     android:id="@+id/fullname"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/alice"
                     android:maxLines="1"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="16sp"
@@ -189,6 +201,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
+                    android:fontFamily="@font/alice"
                     android:maxLines="5"
                     android:textColor="@color/colorPrimaryDark" />
 
@@ -211,6 +224,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:background="#FFF3E6"
                     android:src="@drawable/ic_grid" />
 
                 <ImageButton
@@ -219,6 +233,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:background="#FFF3E6"
                     android:src="@drawable/ic_save" />
 
             </LinearLayout>

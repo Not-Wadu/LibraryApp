@@ -33,8 +33,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:background="?attr/colorAccent"
+        android:fontFamily="@font/alice"
         android:text="Log in"
-        android:textColor="@color/colorBlack" />
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/register"
@@ -42,7 +44,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:background="?attr/colorAccent"
+        android:fontFamily="@font/alice"
         android:text="Register"
-        android:textColor="@color/colorBlack" />
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp" />
 
 </LinearLayout>

@@ -272,21 +272,11 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder>{
                     }
             }
             }
-
-
-
             @Override
             public void onCancelled( DatabaseError databaseError) {
 
             }
         });
-
-
-
-
-
-
-
     }
 
     private void addNotifications(String userid, String postid){
@@ -294,7 +284,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder>{
 
         HashMap<String, Object> hashMap = new HashMap<>();
         hashMap.put("userid", firebaseUser.getUid());
-        hashMap.put("text", "liked your post");
+        hashMap.put("text", "Borrowed your book!");
         hashMap.put("postid", postid);
         hashMap.put("ispost", true);
 

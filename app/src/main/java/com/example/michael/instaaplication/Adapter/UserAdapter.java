@@ -122,7 +122,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
 
         HashMap<String, Object> hashMap = new HashMap<>();
         hashMap.put("userid", firebaseUser.getUid());
-        hashMap.put("text", "started following you");
+        hashMap.put("text", "Started reading from you");
         hashMap.put("postid", "");
         hashMap.put("ispost", false);
 
